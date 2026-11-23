@@ -43,11 +43,25 @@ LabLog merupakan aplikasi Android yang dikembangkan untuk membantu mahasiswa men
 - Mengatur package name `com.example.lablog`.
 - Menjalankan project pada emulator Android.
 
-### Week 2
-- Membuat repository GitHub `0061_LabLog`.
-- Menghubungkan project Android Studio dengan repository GitHub.
-- Menyiapkan dokumentasi awal project melalui README.md.
+## Progres Pengembangan
 
+### Week 2 – Pengembangan Antarmuka Autentikasi
+
+Pada minggu kedua, pengembangan aplikasi LabLog berfokus pada pembuatan antarmuka autentikasi menggunakan Jetpack Compose.
+
+Fitur yang telah dikerjakan:
+- Membuat halaman Login.
+- Membuat halaman Register.
+- Mengimplementasikan Navigation Compose untuk perpindahan halaman Login dan Register.
+- Menambahkan validasi nama lengkap.
+- Menambahkan validasi email.
+- Menambahkan validasi password.
+- Menambahkan validasi konfirmasi password.
+- Melakukan pengujian tampilan dan validasi aplikasi pada emulator Android.
+
+**Status:** Selesai.
+
+**Catatan:** Proses autentikasi dan penyimpanan akun ke database belum diimplementasikan.
 ## Pengembang
 
 **Drivandi Pratama**  
