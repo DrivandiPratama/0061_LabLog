@@ -28,7 +28,7 @@ LabLog merupakan aplikasi Android yang dikembangkan untuk membantu mahasiswa men
 
 | No. | Fitur | Status |
 |---|---|---|
-| 1 | Login dan Register | Belum dikerjakan |
+| 1 | Login dan Register | Antarmuka Selesai |
 | 2 | Mata Praktikum | Belum dikerjakan |
 | 3 | Sesi Praktikum | Belum dikerjakan |
 | 4 | Logbook Praktikum | Belum dikerjakan |
