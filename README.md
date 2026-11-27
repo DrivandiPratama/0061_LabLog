@@ -2,29 +2,34 @@
 
 **Aplikasi Logbook Praktikum Mahasiswa Berbasis Android Menggunakan Jetpack Compose**
 
-## Deskripsi
+## 1. Deskripsi
 
 LabLog merupakan aplikasi Android yang dikembangkan untuk membantu mahasiswa mencatat dan mengelola aktivitas praktikum secara digital. Aplikasi ini bertujuan agar catatan kegiatan praktikum dapat tersimpan dengan lebih terstruktur dan mudah ditemukan kembali.
 
-## Tujuan Project
+## 2. Tujuan Project
 
 - Memudahkan mahasiswa mencatat kegiatan praktikum.
 - Mengelola data mata praktikum dan sesi praktikum.
 - Menyimpan hasil pengamatan dan kesimpulan praktikum.
 - Mengelola alat, bahan, dan dokumentasi praktikum.
 
-## Teknologi yang Digunakan
+## 3. Teknologi yang Digunakan
 
+**Mobile Application:**
 - Kotlin
 - Jetpack Compose
 - Android Studio
 - Navigation Compose
 - MVVM
-- Node.js dan Express.js
+
+**Backend API:**
+- Node.js
+- Express.js
 - PostgreSQL Cloud
 - REST API dan JSON
+- JWT Authentication
 
-## Fitur Aplikasi
+## 4. Fitur Aplikasi
 
 | No. | Fitur | Status |
 |---|---|---|
@@ -36,38 +41,39 @@ LabLog merupakan aplikasi Android yang dikembangkan untuk membantu mahasiswa men
 | 6 | Dokumentasi Praktikum | Belum dikerjakan |
 | 7 | Profil Pengguna | Belum dikerjakan |
 
-## Progress Pengerjaan
+## 5. Progress Mingguan (Weekly Progress)
 
-### Week 1
-- Membuat project awal LabLog menggunakan Android Studio.
-- Mengatur package name `com.example.lablog`.
-- Menjalankan project pada emulator Android.
+Berikut adalah linimasa pengembangan proyek LabLog berdasarkan progres pengerjaan dan riwayat Git Commit.
 
-## Progres Pengembangan
+### 📅 Minggu 1 (18–20 November 2026)
 
-### Week 2 – Pengembangan Antarmuka Autentikasi
+- **Inisialisasi Project:** Membuat project awal LabLog menggunakan Android Studio.
+- **Konfigurasi Project:** Mengatur package name aplikasi menjadi `com.example.lablog`.
+- **Struktur Package:** Membuat struktur package awal untuk memisahkan bagian data, model, navigation, UI, dan ViewModel.
+- **Pengujian Awal:** Menjalankan aplikasi pada emulator Android dan perangkat fisik.
 
-Pada minggu kedua, pengembangan aplikasi LabLog berfokus pada pembuatan antarmuka autentikasi menggunakan Jetpack Compose.
+### 📅 Minggu 2 (21–25 November 2026)
 
-Fitur yang telah dikerjakan:
-- Membuat halaman Login.
-- Membuat halaman Register.
-- Mengimplementasikan Navigation Compose untuk perpindahan halaman Login dan Register.
-- Menambahkan validasi nama lengkap.
-- Menambahkan validasi email.
-- Menambahkan validasi password.
-- Menambahkan validasi konfirmasi password.
-- Melakukan pengujian tampilan dan validasi aplikasi pada emulator Android.
+- **Antarmuka Login:** Membuat halaman Login menggunakan Jetpack Compose.
+- **Antarmuka Register:** Membuat halaman Register dengan input nama lengkap, email, password, dan konfirmasi password.
+- **Navigasi Autentikasi:** Mengimplementasikan Navigation Compose untuk perpindahan halaman Login dan Register.
+- **Validasi Form:** Menambahkan validasi nama lengkap, email, password, dan konfirmasi password.
+- **Pengujian Aplikasi:** Menguji tampilan, navigasi, dan validasi form pada perangkat Android.
 
-**Status:** Selesai.
+**Status Minggu 2: Selesai.**
 
-**Catatan:** Proses autentikasi dan penyimpanan akun ke database belum diimplementasikan.
-## Pengembang
+**Catatan:** Fitur autentikasi pada tahap ini masih berupa antarmuka, navigasi, dan validasi form. Proses autentikasi menggunakan API serta penyimpanan akun ke database belum diimplementasikan.
+
+## 6. Pengembang
 
 **Drivandi Pratama**  
 Program Studi Teknologi Informasi  
 Universitas Muhammadiyah Yogyakarta
 
-## Repository
+## 7. Repository
 
+**Mobile Repository:**  
 [GitHub - 0061_LabLog](https://github.com/DrivandiPratama/0061_LabLog)
+
+**API Repository:**  
+Akan dibuat pada repository terpisah dengan nama `0061_API_LabLog`.
